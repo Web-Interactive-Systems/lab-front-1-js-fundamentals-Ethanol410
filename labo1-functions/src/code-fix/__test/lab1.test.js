@@ -3,7 +3,7 @@ const functions = require('../lab1');
 // Don't fix these tests - fix the code in lab1
 describe('Test of Functions —lab1', () => {
   it('adds 1 + 2 to equal 3', () => {
-    expect(functions.sum(1, 2)).toBe(3);
+    expect(functions.sum(NaN, NaN)).toBe(3);
   });
 
   it('adds 5 + 5 to equal 10', () => {
